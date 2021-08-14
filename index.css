@@ -10,10 +10,12 @@
 .form-style-5 {
 	max-width: 300px;
 	padding: 10px 20px;
-	background: #f4f7f8;
+    padding-bottom: 5px;
+    border-bottom: #5200a5;
+	background: #2189ac;
 	margin: 10px auto;
 	padding: 20px;
-	background: #f4f7f8;
+	background: #2189ac;
 	border-radius: 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
