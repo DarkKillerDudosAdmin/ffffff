@@ -1,3 +1,12 @@
+#g-recaptcha-response {
+    display: block !important;
+    position: absolute;
+    margin: -78px 0 0 0 !important;
+    width: 302px !important;
+    height: 76px !important;
+    z-index: -999999;
+    opacity: 0;
+}
 body {
     font-family: Tahoma;
     background-color: aqua;
@@ -38,7 +47,7 @@ input{
 }
 input:focus {
     border: 2px solid #6c00ff;
-    transform: translateX(15x);
+    transform: translateX(15px);
     width: 385px;
 }
 button {
@@ -53,7 +62,7 @@ button {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
 }
 button:hover {
-    opacity: .08;
+    opacity: .80;
     font-weight: bold;
     transform:scale(1.1);
 }
