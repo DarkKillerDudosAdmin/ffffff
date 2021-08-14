@@ -75,7 +75,7 @@ h1 {
 .form-style-5 input[type="email"]:focus,
 .form-style-5 textarea:focus,
 .form-style-5 select:focus {
-	background: hsl(240, 3%, 7%);
+	background: rgb(234, 234, 236);
 }
 
 .form-style-5 select {
