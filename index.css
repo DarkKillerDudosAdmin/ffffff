@@ -11,6 +11,12 @@ body {
     background-color: aqua;
     margin: 0;
 }
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #5200a5;
+}
 .form-style-5 {
 	max-width: 300px;
 	padding: 10px 20px;
@@ -43,7 +49,7 @@ body {
 .form-style-5 textarea,
 .form-style-5 select {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	background: rgba(255, 255, 255, .1);
+	background: rgba(248, 246, 246, 0.1);
 	border: none;
 	border-radius: 20px/20px;
 	font-size: 12px;
@@ -81,16 +87,17 @@ body {
 	position: relative;
 	display: block;
 	padding: 19px 39px 18px 39px;
-	color: #FFF;
-	margin: 0 auto;
-	background: #8B0000;
-	font-size: 18px;
-	text-align: center;
-	font-style: normal;
-	width: 100%;
-	border: 1px solid #8B0000;
-	border-width: 1px 1px 3px;
-	margin-bottom: 10px;
+	color: #fff;
+    background: #5200a5;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);color: #fff;
+    background: #5200a5;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
 }
 
 .form-style-5 input[type="submit"]:hover
