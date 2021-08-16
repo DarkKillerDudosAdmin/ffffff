@@ -90,17 +90,17 @@ h1 {
 	cursor: pointer;
 	outline: none;
 	color: #fff;
-	background-color: #4CAF50;
+	background-color: #b62d2d;
 	border: none;
 	border-radius: 15px;
-	box-shadow: 0 9px #999;
+	box-shadow: 0 9px rgb(56, 54, 54);
   }
   
-  .form-style-5 input[type="submit"]:hover {background-color: #3e8e41}
+  .form-style-5 input[type="submit"]:hover {background-color: #b62d2d}
   
   .form-style-5 input[type="submit"]:active {
-	background-color: #3e8e41;
-	box-shadow: 0 5px #666;
+	background-color: #b62d2d;
+	box-shadow: 0 5px rgb(56, 54, 54);
 	transform: translateY(4px);
   }
 
