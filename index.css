@@ -22,13 +22,13 @@ h1 {
 	padding: 10px 20px;
     padding-bottom: 5px;
     border-bottom: #5200a5;
-	box-shadow:  0 1px 0 rgba(0, 0, 0, 0.03) inset;
 	background: #2189ac;
 	margin: 10px auto;
 	padding: 20px;
 	background: #2189ac;
 	border-radius: 10px;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	box-shadow: 0 0 5px 2px;
 }
 
 .form-style-5 fieldset {
