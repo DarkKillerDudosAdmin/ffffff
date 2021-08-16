@@ -83,22 +83,24 @@ h1 {
 	-webkit-appearance: menulist-button;
 	height: 35px;
 }
-
 .form-style-5 input[type="submit"] {
-	position: relative;
-	display: block;
-	padding: 19px 39px 18px 39px;
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
 	color: #fff;
-    background: #5200a5;
-    border: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);color: #fff;
-    background: #5200a5;
-    border: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
-}
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .form-style-5 input[type="submit"]:hover {background-color: #3e8e41}
+  
+  .form-style-5 input[type="submit"]:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
 
