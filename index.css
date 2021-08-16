@@ -22,6 +22,7 @@ h1 {
 	padding: 10px 20px;
     padding-bottom: 5px;
     border-bottom: #5200a5;
+	box-shadow:  0 1px 0 rgba(0, 0, 0, 0.03) inset;
 	background: #2189ac;
 	margin: 10px auto;
 	padding: 20px;
